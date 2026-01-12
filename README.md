@@ -29,11 +29,46 @@ sudo apt install curl yt-dlp atomicparsley
 sudo apt install curl yt-dlp ffmpeg
 ```
 
+### Installation (macOS)
+
+```bash
+# Install Homebrew if you don't have it
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
+# Install dependencies
+brew install yt-dlp atomicparsley
+
+# Or if you prefer ffmpeg for tagging
+brew install yt-dlp ffmpeg
+
+# curl is already included in macOS
+```
+
+### Installation (Windows)
+
+**Option 1: WSL (Windows Subsystem for Linux) - Recommended**
+
+```bash
+# Install WSL first (PowerShell as Administrator):
+wsl --install
+
+# Then inside WSL, follow the Ubuntu/Debian instructions above
+```
+
+**Option 2: Git Bash + Manual Installation**
+
+1. Install [Git for Windows](https://git-scm.com/download/win) (includes Git Bash)
+2. Download [yt-dlp.exe](https://github.com/yt-dlp/yt-dlp/releases/latest) and add to PATH
+3. Download [AtomicParsley.exe](https://github.com/wez/atomicparsley/releases) and add to PATH
+4. Use Git Bash to run the script
+
+**Note:** The script works best on Linux/macOS or Windows WSL. Native Windows support via Git Bash may have limitations.
+
 ## Quick Start
 
 1. **Download the script:**
    ```bash
-   wget https://raw.githubusercontent.com/jonasbdotcom/bbc-radio-episode-downloader/main/bbc_auto_download.sh
+   wget https://raw.githubusercontent.com/yourusername/bbc-radio-downloader/main/bbc_auto_download.sh
    chmod +x bbc_auto_download.sh
    ```
 
