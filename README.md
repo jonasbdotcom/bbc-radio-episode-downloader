@@ -68,7 +68,7 @@ wsl --install
 
 1. **Download the script:**
    ```bash
-   wget https://raw.githubusercontent.com/yourusername/bbc-radio-downloader/main/bbc_auto_download.sh
+   wget https://raw.githubusercontent.com/jonasbaek/bbc-radio-episode-downloader/main/bbc_auto_download.sh
    chmod +x bbc_auto_download.sh
    ```
 
