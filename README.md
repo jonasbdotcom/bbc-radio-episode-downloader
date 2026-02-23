@@ -306,7 +306,7 @@ Issues and pull requests welcome! Please ensure:
 
 ## Authors
 
-- **Jonas** - Initial concept, requirements, and testing
+- **J78** - Initial concept, requirements, and testing
 - **Claude (Anthropic)** - Code implementation and development
 
 This project was developed through an iterative collaboration, with Jonas providing real-world testing and feedback on BBC's systems, and Claude implementing the solutions.
